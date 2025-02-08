@@ -20,7 +20,14 @@
             <li><a href="Gallery.html">Gallery</a></li>
         </ul>
     </nav>
-    
+     <script>
+        const menuToggle = document.querySelector(".menu-toggle");
+        const navLinks = document.querySelector(".nav-links");
+
+        menuToggle.addEventListener("click", () => {
+            navLinks.classList.toggle("active");
+        });
+    </script>
     <section class="hero">
         <h1>Welcome to Aananyas global (OPC) PVT. LTD.</h1>
         <p>Your partner in sustainable agriculture</p>
